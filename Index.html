@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Story of Cebu IT Park</title>
+  <style>
+    /* Simple, clean styles for beginners */
+    :root{
+      --max-width:900px;
+      --accent:#0b63a8;
+      --muted:#666;
+      --card:#fafafa;
+    }      
+    body{
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      margin:0;
+      background: #f3f5f7;
+      color:#222;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{
+      max-width: var(--max-width);
+      margin:32px auto;
+      padding:20px;
+    }
+    header{
+      background: linear-gradient(90deg, rgba(11,99,168,0.95), rgba(7,123,200,0.95));
+      color:white;
+      padding:28px 20px;
+      border-radius:12px;
+      box-shadow: 3px 6px 18px rgba(5,5,5,5.08);
+    }
+    header h1{ margin:0 0 6px; font-size:1.6rem; }
+    header p{ margin:0; color:rgba(255,255,255,0.9); }
+    main{ margin-top:18px; display:grid; gap:18px; }
+    .card{
+      background:var(--card);
+      padding:18px;
+      border-radius:10px;
+      box-shadow: 0 4px 12px rgba(5,5,5,5.04);
+    }
+    .hero-img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+      border-radius:8px;
+      background:#ddd;
+      display:block;
+    }
+    h2{ color:var(--accent); margin-top:0; }
+    .muted{ color:var(--muted); font-size:0.95rem; }
+    .timeline{ gap:10px; text-align : center; flex-wrap:wrap; }
+    .time-item{
+      background:white; padding:10px 12px; border-radius:8px; border:1px solid #eee; min-width:150px;
+    }
+    footer{ text-align:center; color:var(--muted); font-size:0.9rem; margin-top:18px; }
+    a.button{
+      display:inline-block; background:var(--accent); color:white; padding:8px 12px; border-radius:8px; text-decoration:none;
+      margin-top:8px;
+    }
+    @media (max-width:600px){
+      .hero-img{ height:160px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 style="font-family: Courier">The Story of Cebu IT Park</h1>
+      <p class="muted", style="font-family: Georgia; color: black;">A short local history form Cebu IT Park</p>
+    </header>
+
+    <main>
+      <article class="card">
+        <!-- Replace src with your photo file name or URL -->
+        <img class="hero-img" src="cebu.png" alt="Cebu IT Park" style="box-shadow: 10px 10px 5px lightblue"><br>
+        <h2>Cebu IT Park</h2>
+        <p style="text-align: justify; font-family: Georgia;">
+          Cebu IT Park is a modern business and technology center in Lahug, Cebu City, Philippines. It is one of the most important IT zones in the country where many big companies and BPO offices are located. Before, this area was the old Lahug Airport, but later it was developed by Ayala Land into a place for technology, business, and innovation.<br><br>
+
+Today, Cebu IT Park has many tall buildings, cafés, restaurants, and parks where people work and relax. It is open day and night because of call centers that work 24 hours. Many young people go there to find jobs in the IT and communication industry. It also help Cebu grow into one of the top technology cities in the Philippines.
+        </p>
+        <p class="muted">Why we choose this place</p>
+        <p style="text-align: justify; font-family: Georgia;">
+          Cebu IT Park is a nice place in Cebu that many people know now. We choose this place because it is about computer and technology, and we are BSIT student. Before, this place was not like now. It was old Lahug Airport before, and only few people go there. But later, they build many buildings and company for IT. Now it become so busy and full of workers.
+        </p>
+
+        <h2>History and Development</h2>
+        <p class="muted">How it changed over time</p>
+        <p style="text-align: justify; font-family: Georgia;">
+          When they start make the IT Park, people don’t believe much first. They think maybe it will not grow. But after some time, many big company come and build office. Many people find work there, like call center and computer jobs. It make Cebu more modern and have many chance for young people.
+        </p>
+
+        <h2>Culture and Current Life</h2>
+        <p class="muted">What the place is like today</p>
+        <p style="text-align: justify; font-family: Georgia;">
+          Now, Cebu IT Park is not only office place, but also place for enjoy. There have café, park, and people go hang out after work. It is nice to see how technology make the place happy and alive. It show that Cebu people can also join in world of technology, not only Manila.
+        </p>
+
+        <h2>Conclusion & Reflection</h2>
+        <p class="muted">Our personal note</p>
+        <p style="text-align: justify; font-family: Georgia;">
+          For us, Cebu IT Park is very important in history of Cebu. It make me think that IT can really change life and help community. As BSIT student, We feel inspired that someday maybe I can work there or build my own company too. It make me proud that in Cebu, there is big place for technology like this.
+        </p>
+
+      </article>
+
+      <section class="card">
+        <h2>Quick Timeline</h2>
+        <div class="timeline" style="text-align: center">
+          <div class="time-item">
+            <strong>Old days</strong>
+            <div class="muted">Lahug Airport and open space</div>
+          </div>
+          <div class="time-item">
+            <strong>Development</strong>
+            <div class="muted">Construction of offices, start of IT Park</div>
+          </div>
+          <div class="time-item">
+            <strong>Growth</strong>
+            <div class="muted">BPOs and IT companies arrive</div>
+          </div>
+          <div class="time-item">
+            <strong>Today</strong>
+            <div class="muted">Busy hub, cafes, parks, and jobs</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="card" style="margin-top:18px;">
+      <div>Created by: <strong><br>Rango, Datu Zaid <br>Cababay, Jessie<br>Ian Matthew N. Verano</strong><br> — 1.6 BSIT</div>
+     
+    </footer>
+  </div>
+</body>
+</html>
